@@ -1,0 +1,17 @@
+# Buildcon
+
+> Buildcon is a Belgrade-based construction and logistics digitalisation company that builds Buildx, a construction project management platform (scheduling, cost tracking, daily logs, installed-quantities tracking, reporting), plus Buildx Warehouse and Buildx Tracking. Backed by 500 Global. Buildcon publishes no public developer API, SDK, or API documentation surface as of this profile.
+
+## Company
+- [Website](https://www.buildcontech.com): Buildcon company site and product overview
+- [Blog](https://www.buildcontech.com/blog): Articles on construction and logistics software
+- [Request a Demo](https://www.buildcontech.com/request-demo): Contact and demo request
+
+## Products
+- Buildx: Construction project management (scheduling, cost tracking, daily logs, installed quantities, reporting)
+- Buildx Warehouse: Warehouse management
+- Buildx Tracking: Real-time asset tracking
+
+## Notes
+- No public API, OpenAPI/Swagger, SDK, CLI, MCP server, or developer portal was found during enrichment.
+- Profile source: API Evangelist network (portfolio company of 500 Global).

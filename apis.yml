@@ -1,7 +1,27 @@
 aid: buildcon
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buildcon.png
 name: Buildcon
-description: Buildcon is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Buildcon is a Belgrade-based construction and logistics digitalisation
+  company that builds Buildx, a proprietary construction project management platform
+  covering project scheduling, cost tracking, daily logs, installed-quantities
+  tracking, and reporting, alongside Buildx Warehouse for warehouse management and
+  Buildx Tracking for real-time asset tracking. The team pairs deep construction and
+  logistics domain knowledge with a modern web stack (React, Angular, Node.js,
+  PostgreSQL on AWS/DigitalOcean) to help builders and logistics operators move off
+  spreadsheets and onto connected operational software. Buildcon is a portfolio
+  company backed by 500 Global. As of this profile the company exposes no public
+  developer API, SDK, or API documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/buildcon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Construction
+- Logistics
+- Construction Technology
+- Project Management
+- Warehouse Management
+- SaaS
+- Digitalisation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/buildcon-domain-security.yml
+- type: LLMsTxt
+  url: llms/buildcon-llms.txt
 - type: Website
-  url: https://buildcon.org
+  url: https://www.buildcontech.com
+- type: Blog
+  url: https://www.buildcontech.com/blog
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
